@@ -1,0 +1,21 @@
+{
+  "name": "OpEI",
+  "version": "1.0.0",
+  "description": "The OpEI Home Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "keywords": [
+    "OpEI",
+    "Open",
+    "Economy",
+    "Initiative"
+  ],
+  "author": "OPEI, Ltd.",
+  "license": "Creative Commons Attribution 3.0 Unported",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
