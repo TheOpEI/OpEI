@@ -2,6 +2,16 @@
 OpEI Website
 
 
+## Run a Server
+
+Open up the containing directory in a terminal and use the command:
+
+```bash
+npm run dev
+```
+
+This will serve the website in your default browser on `127.0.0.1:8080` by default.
+
 ## Template used:
 Directive by HTML5 UP
 html5up.net | @ajlkn
