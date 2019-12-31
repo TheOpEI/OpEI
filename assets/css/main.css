@@ -21,7 +21,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -2809,7 +2808,7 @@ input, select, textarea {
 				and a negative margin (to move everything up a bit).
 			*/
 
-		margin-top: -260px;
+		margin-top: -330px;
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
 		text-align: center;
@@ -2906,7 +2905,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 6em 0 5em 0;
+		padding: 3em 0 1em 0;
 		position: relative;
 		z-index: 1;
 	}
@@ -2934,15 +2933,15 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 			h3 {
-				font-size: 1.25em;
+				font-size: 1.2em;
 			}
 
 		/* Section/Article */
@@ -3049,7 +3048,8 @@ input, select, textarea {
 			#footer {
 				background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
-				margin-top: -100px;
+				margin-top: -120px;
+				margin-bottom: 0px;
 				padding: calc(230px + 4em) 0 6em 0;
 			}
 
@@ -3059,9 +3059,9 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			/* #main {
 				padding: 4em 0 3em 0;
-			}
+			} */
 
 	}
 
@@ -3072,7 +3072,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 	}
@@ -3112,7 +3112,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header p {
-				font-size: 0.8em;
+				font-size: 1em;
 			}
 
 			header.major {
@@ -3205,7 +3205,7 @@ input, select, textarea {
 			#footer {
 				background-image: url("images/bottom-1280.svg");
 				background-size: 1280px 184px;
-				margin-top: -75px;
+				margin-top: -85px;
 				padding: calc(184px + 2em) 0 2em 0;
 			}
 
