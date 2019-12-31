@@ -1972,6 +1972,7 @@ input, select, textarea {
 			color: #888888;
 			text-transform: uppercase;
 			letter-spacing: 0.075em;
+			margin:0;
 		}
 
 		header.major {
@@ -2711,7 +2712,7 @@ input, select, textarea {
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 10em 0 20em 0;
+		padding: 10em 0 10em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2733,7 +2734,7 @@ input, select, textarea {
 
 		#header:after {
 			bottom: 0;
-			height: 50px;
+			height: 10px;
 		}
 
 		#header a {
